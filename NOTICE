@@ -1,0 +1,10 @@
+This repository redistributes, unmodified, the skills platform-custom-field-generate, platform-permission-set-generate and
+platform-validation-rule-generate of the salesforce-development plugin of forcedotcom/sf-skills
+(https://github.com/forcedotcom/sf-skills), at commit face44b6bd3f02210d4d542106de9aa50f20d7aa, under the Apache License 2.0
+(see LICENSE). Copyright (c) 2026 Salesforce, Inc.
+
+Only that subset is copied, with the plugin's plugin.json; .claude-plugin/marketplace.json lists only that plugin. The copied
+files are not modified. Nouter publishes this subset because a Nouter workspace cannot sync the full repository (it is too large).
+
+Este repo redistribuye sin cambios esas tres skills de forcedotcom/sf-skills, bajo la licencia Apache 2.0, para que un espacio de
+Nouter pueda sincronizarlas: el repo original es demasiado grande para sincronizarlo entero.

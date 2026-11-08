@@ -1,0 +1,37 @@
+{
+  "name": "salesforce",
+  "owner": {
+    "name": "Salesforce"
+  },
+  "plugins": [
+    {
+      "name": "salesforce-development",
+      "source": "./plugins/builder/salesforce-development",
+      "description": "Foundation layer for Salesforce platform development — 38 skills for environment validation, project scaffolding, scratch-org lifecycle, declarative metadata, Apex (author, run anonymous, test, debug), flow automation, SOQL, deploy/retrieve, manifest generation, security, reporting, and generated installed-versus-available capability discovery, plus org-context detection, a production deploy-safety gate, and a bundled Apex + SOQL language server (MCP).",
+      "keywords": [
+        "salesforce",
+        "apex",
+        "flow",
+        "soql",
+        "metadata",
+        "deploy",
+        "security"
+      ],
+      "metadata": {
+        "match": {
+          "examplePrompts": [
+            "build a flow",
+            "deploy my metadata",
+            "run apex tests"
+          ],
+          "anchorTerms": [
+            "apex",
+            "flow",
+            "metadata",
+            "deploy"
+          ]
+        }
+      }
+    }
+  ]
+}
